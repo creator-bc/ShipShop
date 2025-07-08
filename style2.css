@@ -1,0 +1,74 @@
+body {
+  font-family: Georgia;
+  background: linear-gradient(to right, #d62, #0808);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+@keyframes pulse {
+  0%   { background-color: #d62; }
+  50%  { background-color: #0808; }
+  100% { background-color: #d62; }
+}
+p{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffff;
+  text-align: center;
+}
+h3{
+font-weight: bold;  
+font-size: 15px;
+color: #ffff;
+text-align: center;
+}
+h4{
+  font-weight: bold;  
+font-size: 15px;
+color: #ffff;
+text-align: center;
+}
+h5{
+  font-weight: bold;  
+font-size: 15px;
+color: #ffff;
+text-align: center;
+}
+h6{
+  font-weight: bold;  
+font-size: 15px;
+color: #ffff;
+text-align: center;
+}
+.sell {
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.connect {
+  background-color: transparent;
+  border: none;
+  padding: 12px 24px;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
