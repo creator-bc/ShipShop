@@ -16,7 +16,8 @@ p {
 h1 {
   margin-top: 20px;
   color: #d62828;
-  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
 }
 
 h2 {
